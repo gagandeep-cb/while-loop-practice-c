@@ -1,173 +1,173 @@
-// Print 1 to 10
-// Print 10 to 1
-// Print even numbers
-// Print odd numbers
-// Sum of first n numbers
-// Factorial
-// Multiplication table
+// 1. Print 1 to 10
+// 2. Print 10 to 1
+// 3. Print even numbers
+// 4. Print odd numbers
+// 5. Sum of first n numbers
+// 6. Factorial
+// 7. Multiplication table
 
-// Print 1 to 10---------------------------------------
-// #include <stdio.h>
+// 1. Print 1 to 10---------------------------------------
+ #include <stdio.h>
 
-// int main(){
-//     int i=1;
-//     int n;
-//     printf("enter the num:");
-//     scanf("%d",&n);
-//     while (i>=n)
-//     {
-//         printf("%d\n", i);
-//         i++;
-//     }
+int main(){
+    int i=1;
+    int n;
+    printf("enter the num:");
+    scanf("%d",&n);
+    while (i>=n)
+    {
+        printf("%d\n", i);
+        i++;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
-// // Print 10 to 1------------------------------
-// #include <stdio.h>
+// 2.  Print 10 to 1------------------------------
+#include <stdio.h>
 
-// int main(){
-//     int i=1;
-//     int n;
-//     printf("enter the num:");
-//     scanf("%d",&n);
-//     while (n>=i)
-//     {
-//         printf("%d\n", n);
-//         n--;
-//     }
+int main(){
+    int i=1;
+    int n;
+    printf("enter the num:");
+    scanf("%d",&n);
+    while (n>=i)
+    {
+        printf("%d\n", n);
+        n--;
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
-// print even numbers-------------------------------------------
-//  #include <stdio.h>
+//3. print even numbers-------------------------------------------
+ #include <stdio.h>
 
-// int main()
-// {
-//     int i=0;
-//     int n;
-//     printf("enter the num:");
-//     scanf("%d", &n);
-//     while (i<=n)
-//     {
-//         if(i%2==0)
-//         {
-//         printf("%d\n",i);
-//         }
-//       i++;
+int main()
+{
+    int i=0;
+    int n;
+    printf("enter the num:");
+    scanf("%d", &n);
+    while (i<=n)
+    {
+        if(i%2==0)
+        {
+        printf("%d\n",i);
+        }
+      i++;
 
-//     }
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
-// print even  revers number----------------------
-// #include <stdio.h>
+// 4. print even  revers number----------------------
+#include <stdio.h>
 
-// int main()
-// {
-//     int i=0;
-//     int n;
-//     printf("enter the num:");
-//     scanf("%d", &n);
-//     while (n>i)
-//     {
-//         if(n%2==0)
-//         {
-//         printf("%d\n",n);
-//         }
-//       n--;
+int main()
+{
+    int i=0;
+    int n;
+    printf("enter the num:");
+    scanf("%d", &n);
+    while (n>i)
+    {
+        if(n%2==0)
+        {
+        printf("%d\n",n);
+        }
+      n--;
 
-//     }
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
-// print odd number-----------------------------------
+// 5. print odd number-----------------------------------
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main()
-// {
-//     int i=1;
-//     int n;
-//     printf("enter the num:");
-//     scanf("%d", &n);
-//     while (i<=n)
-//     {
-//         if(i%2!=0)
-//         {
-//         printf("%d\n", i);
-//         }
-//       i++;
+int main()
+{
+    int i=1;
+    int n;
+    printf("enter the num:");
+    scanf("%d", &n);
+    while (i<=n)
+    {
+        if(i%2!=0)
+        {
+        printf("%d\n", i);
+        }
+      i++;
 
-//     }
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
-// print odd number in revers --------------------------------
-//  #include <stdio.h>
+// 6. print odd number in revers --------------------------------
+ #include <stdio.h>
 
-// int main()
-// {
-//     int i=1;
-//     int n;
-//     printf("enter the num:");
-//     scanf("%d", &n);
-//     while (n>=i)
-//     {
-//         if(n%2!=0)
-//         {
-//         printf("%d\n", n);
-//         }
-//       n--;
+int main()
+{
+    int i=1;
+    int n;
+    printf("enter the num:");
+    scanf("%d", &n);
+    while (n>=i)
+    {
+        if(n%2!=0)
+        {
+        printf("%d\n", n);
+        }
+      n--;
 
-//     }
+    }
 
-//     return 0;
-// }
+    return 0;
+}
 
-// sum f n numbers----------------------------------
+// 7. sum f n numbers----------------------------------
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main()
-// {
-//     int i = 1;
-//     int n, sum = 0;
-//     printf("enter the num:");
-//     scanf("%d", &n);
-//     while (i <= n)
-//     {
-//         sum += i;
-//         i++;
-//     }
-//     printf("%d", sum);
-//     return 0;
-// }
+int main()
+{
+    int i = 1;
+    int n, sum = 0;
+    printf("enter the num:");
+    scanf("%d", &n);
+    while (i <= n)
+    {
+        sum += i;
+        i++;
+    }
+    printf("%d", sum);
+    return 0;
+}
 
-//Factorial--------------------------------------------------------------
+// 8. Factorial--------------------------------------------------------------
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main()
-// {
-//     int i = 1;
-//     int n, product = 1;
-//     printf("enter the num:");
-//     scanf("%d", &n);
-//     while (i <= n)
-//     {
-//         product*=i;
-//         i++;
-//     }
-//     printf(" factorial num:%d",product);
-//     return 0;
-// }
+int main()
+{
+    int i = 1;
+    int n, product = 1;
+    printf("enter the num:");
+    scanf("%d", &n);
+    while (i <= n)
+    {
+        product*=i;
+        i++;
+    }
+    printf(" factorial num:%d",product);
+    return 0;
+}
 
-// Multiplication table--------------------------------------------------
+// 9. Multiplication table--------------------------------------------------
 
 #include <stdio.h>
 

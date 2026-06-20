@@ -13,3 +13,7 @@ This repository contains my C programming practice problems using while loop.
  5. Sum of first n numbers
  6. Factorial
  7. Multiplication table
+ 8. Reverse a number
+ 9. Count digits
+ 10. Sum of digits
+ 11. Check palindrome number

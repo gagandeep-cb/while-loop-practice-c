@@ -6,7 +6,7 @@
 // Factorial
 // Multiplication table
 // =====================================
-// Print 1 to 10
+//          Print 1 to 10
 // =====================================
 #include <stdio.h>
 
@@ -43,7 +43,7 @@ int main(){
     return 0;
 }
 // =====================================
-// print even numbers-------------------------------------------
+//         print even numbers
 // =====================================
 
  #include <stdio.h>
@@ -68,7 +68,7 @@ int main()
 }
 
 // =====================================
-//print even  revers number
+//         print even  revers number
 // =====================================
 
 #include <stdio.h>
@@ -92,7 +92,7 @@ int main()
     return 0;
 }
 // =====================================
-//print odd number
+//          print odd number
 // =====================================
 
 #include <stdio.h>
@@ -116,7 +116,7 @@ int main()
     return 0;
 }
 // =====================================
-//print odd number in revers --------------------------------
+//       print odd number in revers 
 // =====================================
 
  #include <stdio.h>
@@ -139,9 +139,9 @@ int main()
 
     return 0;
 }
-
-//sum f n numbers----------------------------------
-
+//====================================================
+//              sum f n numbers 
+//===================================================
 #include <stdio.h>
 
 int main()
@@ -159,7 +159,7 @@ int main()
     return 0;
 }
 // =====================================
-//Factorial--------------------------------------------------------------
+//              Factorial
 // =====================================
 
 
@@ -181,7 +181,7 @@ int main()
     return 0;
 }
 // =====================================
-//Multiplication table--------------------------------------------------
+//         Multiplication table
 // =====================================
 
 #include <stdio.h>
@@ -201,7 +201,7 @@ int main()
     return 0 ;
 }
 //======================================
-// Reverse a number
+//           Reverse a number
 //=====================================
 
 #include <stdio.h>
@@ -222,7 +222,7 @@ int main()
     return 0;
 }
 //=========================================
-// Check palindrome number
+//           Check palindrome number
 //==========================================
 
 #include <stdio.h>
@@ -252,7 +252,7 @@ int main()
 }
 
 // ==================================
-// Sum of digits
+//           Sum of digits
 // =====================================
 
 #include <stdio.h>
@@ -276,7 +276,7 @@ int main()
     return 0;
 }
 // =======================================
-// Count digits
+//          Count digits
 // =======================================
 #include <stdio.h>
 
@@ -295,5 +295,77 @@ int main()
 
     printf("Total digits = %d\n", count);
 
+    return 0;
+}
+//======================================
+//      Series of powers of two
+//=====================================
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    int i;
+    int power = 1;
+
+    printf("enter the num :");
+    scanf("%d", &num);
+    if (num <= 0)
+    {
+        printf("Series of powers of two:\n");
+    }
+    i = 1;
+    while (i <= num)
+    {
+        printf("%d ", power);
+        power *= 2;
+        i++;
+    }
+    printf("\n");
+
+    return 0;
+}
+
+//=================================================
+// read 2 integers from user and multiply two numbers without using multiplication operator
+//==================================================
+#include<stdio.h>
+int main()
+{
+    int i=1, num1,num2;
+    int sum=0;
+    printf("Enter the num1:");
+    scanf("%d",&num1);
+    printf("Enter the num2:");
+    scanf("%d",&num2);
+    while(i<=num2){
+    sum=sum+num1;
+    i++;
+    }
+    printf("The result is %d",sum);
+    return 0;
+}
+//===================================================================================
+//read base value and exponential value from user and print the power of N series.
+//===================================================================================
+
+#include<stdio.h>
+int main()
+{
+    int i=0;
+    int num1, num2;
+    int result = 1;
+    printf("Enter the base value : ");
+    scanf("%d", &num1);
+    printf("Enter the exponential value : ");
+    scanf("%d", &num2);
+    while(i<=num2)
+    {
+        printf("%d ", result);
+        result = result * num1;
+        i++;
+    }
+    printf("\n");
     return 0;
 }

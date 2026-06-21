@@ -17,3 +17,6 @@ This repository contains my C programming practice problems using while loop.
  9. Count digits
  10. Sum of digits
  11. Check palindrome number
+ 12. Series of powers of two
+ 13. Read 2 integers from user and multiply two numbers without using multiplication operator
+ 14. Read base value and exponential value from user and print the power of N series.
